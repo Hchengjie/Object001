@@ -1,5 +1,5 @@
 /* 遮罩层 */
-.coverBox{
+.coverBox {
     position: absolute;
     top: 0;
     left: 0;
@@ -12,59 +12,68 @@
 
 
 /* 导航栏 */
-header{
+header {
     background: #333;
 }
-header .my_nav{
+
+header .my_nav {
     width: 95%;
     margin: 0 auto;
     background: #333;
     border: none;
 }
 
-header .my_nav .navbar-header .navRight{
+header .my_nav .navbar-header .navRight {
     float: right;
     margin: 0;
 }
-header .my_nav .navbar-header .navRight li{
+
+header .my_nav .navbar-header .navRight li {
     float: left;
 }
-header .my_nav .navbar-header .navRight li a{
+
+header .my_nav .navbar-header .navRight li a {
     padding: 25px 5px;
 }
-header .my_nav .navbar-toggle{
+
+header .my_nav .navbar-toggle {
     margin: 16px 15px 16px 0;
 }
+
 header .navbar-default .navbar-toggle:hover,
-header .navbar-default .navbar-toggle:focus{
+header .navbar-default .navbar-toggle:focus {
     background: none;
- }
+}
 
 /* 导航栏 按钮 */
-header .navbar-header .navBtn{
+header .navbar-header .navBtn {
     border: none;
     color: aliceblue;
 }
-header .navbar-brand{
+
+header .navbar-brand {
     padding: 18px 0;
     width: 102px;
 }
-header .navbar-default .navbar-nav > li > a{
+
+header .navbar-default .navbar-nav>li>a {
     padding: 25px 15px;
     color: #fff;
 }
-header .navbar-default .navbar-nav > li > a .glyphicon {
+
+header .navbar-default .navbar-nav>li>a .glyphicon {
     font-size: 12px;
     margin-left: 5px;
 }
-.navbar-default .navbar-nav > li > a:hover,
- .navbar-default .navbar-nav > li > a:focus{
-     color: #fff;
- }
+
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus {
+    color: #fff;
+}
 
 
- /* 左侧移动盒子 */
- header .navMoveBox{
+/* 左侧移动盒子 */
+header .navMoveBox {
     width: 260px;
     height: 100%;
     position: absolute;
@@ -72,51 +81,59 @@ header .navbar-default .navbar-nav > li > a .glyphicon {
     left: -260px;
     background-color: #fff;
     z-index: 2;
- }
- header .navMoveBox .moveHeader div{
+}
+
+header .navMoveBox .moveHeader div {
     padding: 15px 0;
     text-align: center;
     width: 50%;
     border: 1px solid #dddddd;
     cursor: pointer;
- }
- header .navMoveBox .service{
-     width: 154px;
-     padding: 14px 0;
-     text-align: center;
-     background-color: #555555;
-     margin: 10px auto;
-     color: #fff;
-     border-radius: 5px;
-     font-size: 12px;
- }
- header .navMoveBox .list-group li{
+}
+
+header .navMoveBox .service {
+    width: 154px;
+    padding: 14px 0;
+    text-align: center;
+    background-color: #555555;
+    margin: 10px auto;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+header .navMoveBox .list-group li {
     border-right: none;
     border-left: none;
     cursor: pointer;
     transition: padding-left 0.5s;
- }
- header .navMoveBox .list-group li:hover{
-     background-color: #f2f2f2;
-     padding-left: 20px;
- }
- /* 左侧移动盒子  结束 */
- 
- /* 简介栏 */
- .infoBox{
-     position: relative;
- }
- .infoBox img{
-     width: 100%;
-     height: 500px;
-     display: block;
- }
-.infoBox video{
+}
+
+header .navMoveBox .list-group li:hover {
+    background-color: #f2f2f2;
+    padding-left: 20px;
+}
+
+/* 左侧移动盒子  结束 */
+
+/* 简介栏 */
+.infoBox {
+    position: relative;
+}
+
+.infoBox img {
+    width: 100%;
+    height: 500px;
+    display: block;
+}
+
+.infoBox video {
     width: 100%;
     height: 100%;
     display: block;
 }
-.infoBox .infoContent{
+
+.infoBox .infoContent {
     position: absolute;
     top: 0;
     left: 0;
@@ -126,30 +143,41 @@ header .navbar-default .navbar-nav > li > a .glyphicon {
 }
 
 
-.infoBox .infoContent .infoContainer{
+.infoBox .infoContent .infoContainer {
     padding: 0 40px;
 }
-.infoBox .infoContent .infoContainer .infoText-1{
+
+.infoBox .infoContent .infoContainer .infoText-1 {
     text-align: center;
 }
-.infoBox .infoContent .infoContainer .infoText-1 .text-1{
+
+.infoBox .infoContent .infoContainer .infoText-1 .text-1 {
     margin-top: 80px;
     font-size: 40px;
     color: #c3c3c3;
 }
-.infoBox .infoContent .infoContainer .infoText-1 .text-1 b{
+
+.infoBox .infoContent .infoContainer .infoText-1 .text-1 b {
     animation: buling 0.8s infinite;
 }
-@keyframes buling{
-    from{opacity: 1;}
-    to{opacity: 0;}
+
+@keyframes buling {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
 }
-.infoBox .infoContent .infoContainer .infoText-1 .text-2{
+
+.infoBox .infoContent .infoContainer .infoText-1 .text-2 {
     font-size: 22px;
     color: rgb(195, 195, 195);
     margin: 50px 0;
 }
-.infoBox .infoContent .infoContainer .infoText-1 .text-3{
+
+.infoBox .infoContent .infoContainer .infoText-1 .text-3 {
     /* margin-top: 60px; */
     border: 1px solid white;
     padding: 15px 60px;
@@ -157,7 +185,8 @@ header .navbar-default .navbar-nav > li > a .glyphicon {
     color: #fff;
     text-decoration: none;
 }
-.infoBox .infoContent .infoIcon{
+
+.infoBox .infoContent .infoIcon {
     position: absolute;
     left: 0;
     bottom: 50px;
@@ -166,20 +195,24 @@ header .navbar-default .navbar-nav > li > a .glyphicon {
     color: #fff;
     text-align: center;
 }
-.infoBox .infoContent .infoContainer .infoText-2{
+
+.infoBox .infoContent .infoContainer .infoText-2 {
     text-align: center;
 }
-.infoBox .infoContent .infoContainer .infoText-2 .text-1{
+
+.infoBox .infoContent .infoContainer .infoText-2 .text-1 {
     margin-top: 60px;
     font-size: 46px;
     color: #fff;
 }
-.infoBox .infoContent .infoContainer .infoText-2 .text-2{
+
+.infoBox .infoContent .infoContainer .infoText-2 .text-2 {
     font-size: 20px;
     color: #fff;
     margin: 15px 0 70px;
 }
-.infoBox .infoContent .infoContainer .infoText-2 .text-3{
+
+.infoBox .infoContent .infoContainer .infoText-2 .text-3 {
     padding: 22px 38px;
     font-size: 22px;
     color: #fff;
@@ -187,40 +220,47 @@ header .navbar-default .navbar-nav > li > a .glyphicon {
     border: 1px solid rgb(54, 133, 190);
     background: rgb(54, 133, 190);
 }
+
 /* 简介栏结束 */
 
 
 /* 视频盒子 */
-.conBox{
+.conBox {
     padding-top: 100px;
     text-align: center;
 }
-.conBox .conTitle{
+
+.conBox .conTitle {
     font-size: 56px;
     color: #333;
     padding-bottom: 15px;
 }
-.conBox .fuTitle{
+
+.conBox .fuTitle {
     font-size: 20px;
     color: #666;
 }
-.conBox .fuTitle p{
+
+.conBox .fuTitle p {
     padding-bottom: 15px;
 }
-.video{
+
+.video {
     position: relative;
     width: 917px;
     height: 700px;
     margin: 0 auto;
 }
-.video .tvBg{
+
+.video .tvBg {
     width: 100%;
     height: 100%;
     background-image: url(../img/tv.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
-.video .viedeoBox{
+
+.video .viedeoBox {
     position: absolute;
     top: 0;
     left: 0;
@@ -228,125 +268,150 @@ header .navbar-default .navbar-nav > li > a .glyphicon {
     z-index: -1;
 
 }
-.conBox .imgBox{
+
+.conBox .imgBox {
     padding: 0 50px;
 }
+
 /* 视频盒子结束 */
 
 
 /* 内容列表盒子 */
 .rowBox,
-.performanceBox{
+.performanceBox {
     background: #f9f9f9;
     padding: 70px 0;
 }
-.rowBox .rowImg{
+
+.rowBox .rowImg {
     margin-top: 30px;
 }
-.rowBox .rowTitle{
+
+.rowBox .rowTitle {
     font-size: 40px;
     color: #333;
     margin: 20px 0;
 }
-.rowBox .rowContent{
+
+.rowBox .rowContent {
     color: rgb(105, 105, 105);
     line-height: 2.5;
 }
-.oppRow{
+
+.oppRow {
     background-color: white;
 }
-.oppRow .rowTitle{
+
+.oppRow .rowTitle {
     color: rgb(62, 163, 255);
 }
+
 /* 内容列表盒子 结束 */
 
 
 /* 性能栏 */
-.performanceBox{
+.performanceBox {
     text-align: center;
 }
-.performanceBox .perforTitle{
+
+.performanceBox .perforTitle {
     font-size: 40px;
     color: #333333;
     margin: 20px 0;
 }
-.performanceBox .perforFuTitle{
+
+.performanceBox .perforFuTitle {
     font-size: 16px;
     color: rgb(73, 73, 73);
 }
-.performanceBox .row .col-md-4{
+
+.performanceBox .row .col-md-4 {
     padding: 0 10px;
 }
-.performanceBox .row .col-md-4 .colBox{
+
+.performanceBox .row .col-md-4 .colBox {
     border: 1px solid rgb(204, 204, 204);
     padding: 30px 0 20px;
-    transition:  all 0.8s;
+    transition: all 0.8s;
     margin-top: 10px;
 }
-.performanceBox .row .col-md-4 .colBox p{
+
+.performanceBox .row .col-md-4 .colBox p {
     font-size: 15px;
     font-weight: bold;
     color: rgb(73, 73, 73);
     padding: 15px 0;
 }
-.performanceBox .row .col-md-4 .colBox:hover{
+
+.performanceBox .row .col-md-4 .colBox:hover {
     background-color: #fff;
     border-color: #3ea3ff;
 }
-.performanceBox .row .col-md-4 .colBox .imgBox{
+
+.performanceBox .row .col-md-4 .colBox .imgBox {
     position: relative;
     margin: 0 auto;
     width: 82px;
     height: 70px;
 }
+
 .performanceBox .row .col-md-4 .colBox .imgBox .img1,
-.performanceBox .row .col-md-4 .colBox .imgBox .img2{
+.performanceBox .row .col-md-4 .colBox .imgBox .img2 {
     position: absolute;
     top: 0;
     left: 0;
     transition: opacity 0.8s;
     opacity: 1;
 }
-.performanceBox .row .col-md-4 .colBox .imgBox .img2{
+
+.performanceBox .row .col-md-4 .colBox .imgBox .img2 {
     opacity: 0;
 }
-.performanceBox .row .col-md-4 .colBox:hover .imgBox .img1{
+
+.performanceBox .row .col-md-4 .colBox:hover .imgBox .img1 {
     opacity: 0;
 }
-.performanceBox .row .col-md-4 .colBox:hover .imgBox .img2{
+
+.performanceBox .row .col-md-4 .colBox:hover .imgBox .img2 {
     opacity: 1;
 }
+
 /* 性能栏 结束 */
 
 
 /* 模板轮播图 */
-.muBnbannerBox{
+.muBnbannerBox {
     text-align: center;
     padding: 80px 0;
 }
-.muBnbannerBox .bannerTitle{
+
+.muBnbannerBox .bannerTitle {
     font-size: 40px;
     color: #333;
     margin: 20px 0;
-    font-weight:  normal;
+    font-weight: normal;
     font-style: normal;
 }
-.muBnbannerBox .bannerFuTile{
+
+.muBnbannerBox .bannerFuTile {
     font-size: 18px;
     color: rgb(169, 169, 169);
 }
+
 .muBnbannerBox ul,
-li{
+li {
     padding: 0;
     margin: 0;
     list-style: none;
 }
-.muBnbannerBox .bannerBox{
+
+.muBnbannerBox .bannerBox {
     position: relative;
     padding: 0 15px;
     overflow: hidden;
 }
-.muBnbannerBox .bannerBox .bannerList{
+
+.muBnbannerBox .bannerBox .bannerList {
     /* position: absolute;
     top: 0;
     left: 0; */
@@ -354,22 +419,25 @@ li{
     width: 200%;
     margin-left: 0px;
 }
-.muBnbannerBox .bannerBox .bannerList li{
+
+.muBnbannerBox .bannerBox .bannerList li {
     float: left;
     width: 12.5%;
     padding-left: 15px;
     padding-right: 15px;
 }
+
 .prevBtn,
-.nextBtn{
+.nextBtn {
     position: absolute;
     top: 0;
     background-color: #fff;
     width: 15px;
     height: 100%;
 }
+
 .prevBtn span,
-.nextBtn span{
+.nextBtn span {
     position: absolute;
     top: 50%;
     left: 0;
@@ -381,36 +449,47 @@ li{
     text-align: center;
 }
 
-.prevBtn{
+.prevBtn {
     left: 0;
 }
-.nextBtn{
+
+.nextBtn {
     right: 0;
 }
+
 /* 模板轮播图 结束 */
 
 
 /* 用户网站展示栏 */
-.userWorksBox{
+.userWorksBox {
     text-align: center;
     padding: 80px 0;
 }
-.userWorksBox .userTitle{
+
+.userWorksBox .row {}
+
+.userWorksBox .userTitle {
     font-size: 40px;
     color: #333;
-    margin: 20px 0;
+    margin: 40px 0;
 }
-.userWorksBox .userFuTitle{
+
+.userWorksBox .userFuTitle {
     font-size: 16px;
     color: #494949;
+    display: inline-block;
 }
-.worksBox .col-sm-4>img{
-    margin: 0 auto;
+
+.worksBox .col-sm-4>img {
+    margin: 15px auto 20px auto;
+    width: 100%;
 }
-.moreWorks{
+
+.moreWorks {
     text-align: center;
 }
-.moreWorks a{
+
+.moreWorks a {
     padding: 8px 50px;
     background: rgb(97, 176, 255);
     border-radius: 25px;
@@ -419,78 +498,102 @@ li{
     font-size: 16px;
 }
 
+@media screen and (max-width: 992px) {
+    /* .userWorksBox{
+        .userTitle{
+            font-size: 36px;
+        }
+    } */
+    .userWorksBox .userTitle{
+        font-size: 36px;
+    }
+}
 
 /* 介绍栏 */
-.intBox{
+.intBox {
     padding: 80px 0;
     text-align: center;
     color: white;
     background-image: url(../img/bg2.jpg);
 }
-.intBox .intTitle{
+
+.intBox .intTitle {
     font-size: 40px;
 }
-.intBox .intFuTitle{
+
+.intBox .intFuTitle {
     font-size: 14px;
     padding: 35px 0;
 }
-.intBox>img{
+
+.intBox>img {
     margin: 0 auto;
 }
+
 /* 介绍栏  结束 */
 
 
 /* 合作伙伴 */
-.partnerBox{
-    padding:  80px 0;
+.partnerBox {
+    padding: 80px 0;
     background: #f9f9f9;
     text-align: center;
 }
-.partnerBox .partnerTitle{
+
+.partnerBox .partnerTitle {
     font-size: 36px;
     padding-bottom: 50px;
 }
-.partnerBox .col-sm-3{
+
+.partnerBox .col-sm-3 {
     padding: 0 5px;
 }
-.parColBox{
+
+.parColBox {
     padding: 20px 0;
     border: 1px solid rgb(222, 222, 222);
 }
-.parColBox>img{
+
+.parColBox>img {
     width: 110px;
     margin: 0 auto 20px;
 }
-.parColBox p{
+
+.parColBox p {
     margin: 0;
     font-size: 18px;
     color: #696969;
 }
+
 /* 合作伙伴 结束 */
 
 
 /* 客户评价 */
-.cstBox{
+.cstBox {
     padding: 80px 0;
     text-align: center;
 }
-.cstBox .cstTitle{
+
+.cstBox .cstTitle {
     font-size: 36px;
     color: #393939;
     border-bottom: 1px solid #e2e2e2;
 }
-.cstBox .cstFuTitle{
-    color: rgb(128,128,128);
+
+.cstBox .cstFuTitle {
+    color: rgb(128, 128, 128);
     font-size: 16px;
     padding-top: 10px;
 }
-.cstBox .cstContent>div .imgBox{
+
+.cstBox .cstContent>div .imgBox {
     position: relative;
     width: 200px;
     height: 200px;
     margin: 0 auto;
 }
-.cstBox .cstContent .imgBox img{
+
+.cstBox .cstContent .imgBox img {
     position: absolute;
     top: 0;
     left: 0;
@@ -499,32 +602,43 @@ li{
     opacity: 1;
     transition: opacity 0.8s;
 }
-.cstBox .cstContent .imgBox .img2{
+
+.cstBox .cstContent .imgBox .img2 {
     opacity: 0;
 }
-.cstBox .cstContent>div .imgBox:hover .img1{
+
+.cstBox .cstContent>div .imgBox:hover .img1 {
     opacity: 0;
 }
-.cstBox .cstContent>div .imgBox:hover .img2{
+
+.cstBox .cstContent>div .imgBox:hover .img2 {
     opacity: 1;
 }
+
 /* 客户评价 结束 */
 
 /* 客户评价轮播图 */
-.cstBanner .carousel{
+.cstBanner .carousel {
     padding: 0 44px;
 }
-.cstBanner .carousel-control{
+
+.cstBanner .carousel-control {
     opacity: 0.5;
 }
+
 .cstBanner .carousel-control.left,
-.cstBanner .carousel-control.right{
+.cstBanner .carousel-control.right {
     background: none;
     width: 44px;
 }
+
+.carousel-inner {
+    height: 150px;
+}
+
 .cstBanner .carousel-control.left span,
-.cstBanner .carousel-control.right span{
-    background:#808080;
+.cstBanner .carousel-control.right span {
+    background: #808080;
     width: 32px;
     height: 32px;
     font-weight: 200;
@@ -532,20 +646,23 @@ li{
     text-align: center;
     line-height: 32px;
 }
-.cstBanner .col-sm-3 img{
+
+.cstBanner .col-sm-3 img {
     width: 90px;
     height: 90px;
     display: block;
     margin: 0 auto;
 }
-.cstBanner .col-sm-9 .cstText{
+
+.cstBanner .col-sm-9 .cstText {
     font-size: 14px;
     color: rgb(173, 173, 173);
     display: inline-block;
     line-height: 1.8;
     /* text-align: left; */
 }
-.cstBanner .col-sm-9 .cstName{
+
+.cstBanner .col-sm-9 .cstName {
     color: rgb(73, 73, 73);
     text-align: right;
     font-size: 16px;
@@ -555,7 +672,50 @@ li{
 .cstBanner .carousel-indicators li {
     background-color: #cecece;
 }
-.cstBanner .carousel-indicators .active{
+
+.cstBanner .carousel-indicators .active {
     background-color: #5fb0ff;
 }
+
 /* 客户评价轮播图 结束 */
+
+
+/* 客服 */
+.serviceBox {
+
+    margin-top: 40px;
+
+}
+
+.serviceBox .container {
+    padding: 0 40px;
+}
+
+.serviceBox .serTitle {
+    font-size: 16px;
+    color: #000;
+}
+
+.serviceBox .serFuTitle {
+    font-size: 22px;
+    color: rgb(51, 51, 51);
+}
+
+.serviceBox .serTitle2 {
+    line-height: 2;
+    color: rgb(51, 51, 51);
+    font-size: 20px;
+}
+
+.serviceBox .serFuTitle2 {
+    font-size: 14px;
+    color: #494949;
+}
+
+.serviceBox img {
+    text-align: right;
+    display: block;
+    margin: 0 auto;
+    /* margin-left: 65px; */
+
+}
