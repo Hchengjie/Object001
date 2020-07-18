@@ -499,12 +499,13 @@ li {
 }
 
 @media screen and (max-width: 992px) {
+
     /* .userWorksBox{
         .userTitle{
             font-size: 36px;
         }
     } */
-    .userWorksBox .userTitle{
+    .userWorksBox .userTitle {
         font-size: 36px;
     }
 }
@@ -718,4 +719,243 @@ li {
     margin: 0 auto;
     /* margin-left: 65px; */
 
+}
+
+
+
+
+.link {
+    margin: 30px 0;
+}
+
+.linkBox {
+
+    color: rgb(97, 176, 255);
+    padding: 15px;
+    border-top: 1px solid #dbdbdb;
+    border-bottom: 1px solid #dbdbdb
+}
+
+.linkBox a {
+    color: rgb(97, 176, 255);
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+/* 尾部样式 */
+.footerBox {
+    padding-bottom: 10px;
+}
+
+.footerBox p {
+    padding-top: 20px;
+    font-size: 13px;
+    color: rgb(67, 81, 92);
+}
+
+.footerBox .blockText {
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(39, 55, 79);
+}
+
+.footerBox p a {
+    color: #61b0ff;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.footerBox .ftImg>div {
+    padding: 0 5px;
+}
+
+.footerBox .col-md-8 .blockText {
+    margin: 20px 0;
+}
+
+.footerBox .col-md-8 p {
+    padding: 5px 0;
+}
+
+.footerBox .col-md-8 p a {
+    color: #27374f;
+    font-size: 13px;
+}
+
+.footerBox .col-md-8 p a:hover {
+    color: #61b0ff;
+}
+
+.footerBox .footText {
+    text-align: center;
+}
+
+.footText .text1 {
+    padding: 15px 0;
+    margin: 0;
+    border-top: 1px solid #dbdbdb;
+    border-bottom: 1px solid #dbdbdb
+}
+
+.footText .text2 {
+    padding: 15px 0;
+    font-size: 12px;
+    color: #494949;
+    line-height: 20px;
+}
+
+.footText .text2 span {
+    padding: 0 10px;
+}
+
+.footText .text3 img {
+    width: 32px;
+    height: 45px;
+}
+
+/* 动画样式 */
+.dh1 {
+    animation: dh1 3s;
+}
+
+@keyframes dh1 {
+    from {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+/* 右边菜单栏 */
+.rightFixBox {
+    position: fixed;
+    right: 0;
+    top: 30%;
+}
+
+.rightFixBox li .item {
+    cursor: pointer;
+    overflow: hidden;
+    width: 54px;
+    height: 54px;
+    background-color: rgb(49, 53, 61);
+    transition: width 2s;
+    float: right;
+    /* 浮动使该元素脱离文档流，使它的宽度变化不影响父元素*/
+    white-space: nowrap;
+    /* 强制盒子不换行*/
+}
+
+.rightFixBox li .item i {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin: 12px;
+    background-image: url(../img/pic.png);
+
+    vertical-align: middle;
+    /* 当要行内块元素与行内元素垂直方向居中时，在行内块元素里设置vertical-align: middle;*/
+}
+
+.rightFixBox li .box1 i {
+    background-position: -40px 0;
+}
+
+.rightFixBox li .box2 i {
+    background-position: -40px -184px;
+}
+
+.rightFixBox li .box3 i {
+    background-position: -40px -80px;
+}
+
+.rightFixBox li .box4 i {
+    background-position: -40px -40px;
+}
+
+.rightFixBox li .item span {
+    color: #fff;
+    font-size: 16px;
+}
+
+.rightFixBox li .item:hover {
+    background-color: rgb(62, 163, 255);
+    width: 154px;
+}
+
+.rightFixBox li .box3:hover {
+    width: 54px;
+}
+
+
+
+
+@media screen and (max-width:768px) {
+    header .navbar-brand {
+        margin: 0 auto;
+        float: none;
+        display: block;
+    }
+
+    .infoBox .infoContent .infoContainer .infoText-2 .text-1 {
+        font-size: 40px;
+    }
+
+    .rowBox {
+        text-align: center;
+    }
+
+    .rowBox .rowTitle {
+        font-size: 30px;
+
+    }
+
+    .rowBox .rowContent {
+        font-size: 12px;
+
+    }
+
+    .parColBox {
+        padding: 10px 0;
+    }
+
+    .partnerTitle {
+        font-size: 20px
+    }
+
+    .parColBox img {
+        margin: 0 auto;
+    }
+
+    .partnerBox .col-sm-3 {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width:300px) {
+    header .navbar-brand {
+        display: none
+    }
+}
+
+@media screen and (max-width: 992px) {
+
+    .conBox .conTitle,
+    .intTitle {
+        font-size: 30px;
+
+    }
+
+    .conBox .fuTitle {
+        font-size: 14px;
+
+    }
+
+    .rowBox {
+        text-align: center;
+    }
 }
